@@ -132,32 +132,3 @@ class gameEnv():
             self.total_time = 0
             self.timer = 0
 
-'''env = gameEnv()
-num_ep = 10
-init_time = time.time()
-curr_time = 0
-total_time = 0
-
-for f in range(num_ep):
-    s = env.reset()
-    d = False
-    j = 0
-
-    while True:
-        j += 1
-        action = 0
-
-        curr_time = time.time()
-        total_time += (curr_time - init_time)
-        init_time = curr_time
-
-        if j > 50:
-            print(total_time)
-            total_time = 0
-            action = 1
-            j = 0
-        s1,r,d = env.step(action)
-
-        if d:
-            break'''
-
